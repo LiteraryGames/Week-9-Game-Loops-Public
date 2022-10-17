@@ -13,13 +13,13 @@ public class ObjectManager : MonoBehaviour
 
     void Awake()
     {
+        objectMover = GetComponent<MoveObjects>();
+        objectMover.ObjectsToApplyForceOnto = objects;
+        objectMover.StartMovement();
         
     }
     // Start is called before the first frame update
     void Start()
     {
-        objectMover.ObjectsToApplyForceOnto = objects;
-        objectMover.StartMovement();
-        objectMover = GetComponent<MoveObjects>();
     }
 }
