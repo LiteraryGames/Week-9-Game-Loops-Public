@@ -11,13 +11,9 @@ public class RotateObjects : MonoBehaviour
 
     bool canWeRotate;
 
-    // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
-        for (int i = 0; i < ObjectsToRotate.Count; i++)
-        {
-            ObjectsToRotate[i].transform.position = new Vector3(0, 0, i * 2f);
-        }
+        ObjectsToRotate = GetComponent<MoveObjects>().ObjectsToMove;
     }
 
     // Update is called once per frame
@@ -27,7 +23,7 @@ public class RotateObjects : MonoBehaviour
         {
             foreach (GameObject thisGameObject in ObjectsToRotate)
             {
-                thisGameObject.transform.position += new Vector3(.01f, 0, 0);
+                thisGameObject.transform.Rotate(.01f, 0, 0);
             }
         }
     }
