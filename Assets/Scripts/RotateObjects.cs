@@ -14,6 +14,7 @@ public class RotateObjects : MonoBehaviour
     void Awake()
     {
         ObjectsToRotate = GetComponent<MoveObjects>().ObjectsToMove;
+        canWeRotate = true;
     }
 
     // Update is called once per frame

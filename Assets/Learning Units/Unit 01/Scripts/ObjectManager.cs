@@ -14,7 +14,7 @@ public class ObjectManager : MonoBehaviour
     void Awake()
     {
         objectMover = GetComponent<MoveObjects>();
-        objectMover.ObjectsToApplyForceOnto = objects;
+        objectMover.ObjectsToMove = objects;
         objectMover.StartMovement();
         
     }
