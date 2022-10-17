@@ -16,6 +16,9 @@ public class SpaceOutObjects : MonoBehaviour
         //{
         //    somethingsomething.transform.position = something * 2f;
         //}
+
+        GetComponent<MoveObjects>().enabled = false; // Keep this line. We've got these objects from this 
+        // Component, and we don't need it anymore
     }
 
     // Update is called once per frame
