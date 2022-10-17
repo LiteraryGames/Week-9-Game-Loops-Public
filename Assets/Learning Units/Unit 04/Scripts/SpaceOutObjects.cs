@@ -14,7 +14,7 @@ public class SpaceOutObjects : MonoBehaviour
         
         //for (something; something something objectsToSpaceOut.Count; something)
         //{
-        //    somethingsomething.transform.position = something * 2f;
+        //    somethingsomething.transform.position = new Vector3(something * 2f,0,0);
         //}
 
         GetComponent<MoveObjects>().enabled = false; // Keep this line. We've got these objects from this 
