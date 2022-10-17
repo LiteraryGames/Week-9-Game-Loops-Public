@@ -20,11 +20,14 @@ You should not create this by hand, but instead do it programmatically. You will
 
 To use this piece of code, you would do the following
 ```
-[SerializeField] GameObject singleCube; // Drag the cube from your scene into this field as a reference in the Inspector
+[SerializeField] GameObject singleCube; // Drag the cube from your scene into this field as 
+// a reference in the Inspector
 
 Start()
 {
-GameObject newCube = Instantiate(singleCube); // This will create a new cube
-newCube.transform.position = etc etc etc; // You can now refer to this new cube and do stuff with it. 
+    GameObject newCube = Instantiate(singleCube); // This will create a new cube
+    newCube.transform.position = etc etc etc; // You can now refer to this new cube and do stuff with it. 
+}
+```
 
 NOTE: the above is NOT the solution, but will help you figure out the solution. 
