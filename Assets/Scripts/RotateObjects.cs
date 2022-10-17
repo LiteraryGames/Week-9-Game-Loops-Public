@@ -24,7 +24,7 @@ public class RotateObjects : MonoBehaviour
         {
             foreach (GameObject thisGameObject in ObjectsToRotate)
             {
-                thisGameObject.transform.Rotate(.01f, 0, 0);
+                thisGameObject.transform.Rotate(.1f, 0, 0);
             }
         }
     }
