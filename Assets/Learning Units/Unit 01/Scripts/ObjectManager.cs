@@ -18,7 +18,7 @@ public class ObjectManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        objectMover.ObjectsToApplyForceOnto = objects;
+        objectMover.ObjectsToMove = objects;
         objectMover.StartMovement();
         objectMover = GetComponent<MoveObjects>();
     }
