@@ -1,5 +1,9 @@
 # Week-9-Game-Loops-Public
 
+## I'm Getting off the Bus!
+
+Students who have had their fill of Unity can do some writing this week instead of the coding below. Type up a "one pager": a single spaced mini-essay that fits on a sheet a paper (attach your one pager as a PDF, please). Work closely with the readings and your experience playing Bennett Foddy's _Getting Over It_. Here are your writing constraints: you must quote from either Freud or Juul and then mix in one or two quotes from Foddy. The whole should address the aesthetics of frustration. What are we doing when we play and fail? Why are we playing if it's not fun? Draw on Foddy's in-game monologue, his blog posts ([this](http://www.foddy.net/2017/01/eleven-flavors-of-frustration/) one on frustration is interesting), or his various public interviews. 
+
 ## Slides
 
 https://myuva-my.sharepoint.com/:p:/g/personal/jcb2h_virginia_edu/Eea2dlsI9YVArIEl_MjhcTEBubFVVA0LvlisdzQsfHIk0g?e=AhfJ1f
