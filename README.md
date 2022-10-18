@@ -48,7 +48,7 @@ BONUS: Accomplish the same, but use Coroutines instead of Update(): https://docs
 
 ### Demon of Hatred
 
-Construct the 3D cube matrix from Bowser, but... bigger. Make the cubes rotate at different speeds, and each one orbit a central point at a speed relative to its proximity. Increase the size of the 3D matrix until your computer begins to struggle. Note how many cubes you have. 
+Construct the 3D cube matrix from Bowser, but... bigger. Make the cubes rotate at different speeds, and each one orbit a central point at a speed relative to its proximity. Increase the size of the 3D matrix (i.e. moar cubes) until your computer begins to struggle. Note how many cubes you have. 
 
 Now download the DOTS package and convert your gameobjects to Entities. Run the same simulation and see how many entity cubes you can have working at the same time. https://unity.com/dots 
 
