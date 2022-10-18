@@ -6,6 +6,8 @@ Students who have had their fill of Unity can do some writing this week instead 
 
 ## I'm Staying on the Bus!
 
+Proceed as per usual below...
+
 ## Slides
 
 https://myuva-my.sharepoint.com/:p:/g/personal/jcb2h_virginia_edu/Eea2dlsI9YVArIEl_MjhcTEBubFVVA0LvlisdzQsfHIk0g?e=AhfJ1f
