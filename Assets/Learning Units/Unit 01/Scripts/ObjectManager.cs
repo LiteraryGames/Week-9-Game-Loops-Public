@@ -11,16 +11,19 @@ public class ObjectManager : MonoBehaviour
     [SerializeField] List<GameObject> objects;
 
     MoveObjects objectMover;
-
+    /*Unity calls Awake only once during the lifetime of the script instance. A script's lifetime lasts until the Scene that contains it is unloaded. 
+     * If the Scene is loaded again, Unity loads the script instance again, so Awake will be called again. 
+     * If the Scene is loaded multiple times additively, Unity loads several script instances, so Awake will be called several times (one on each instance).
+     */
     void Awake()
-    {
-        
-    }
-    // Start is called before the first frame update
-    void Start()
     {
         objectMover = GetComponent<MoveObjects>();
         objectMover.ObjectsToMove = objects;
         objectMover.StartMovement();
+
+    }
+    // Start is called before the first frame update
+    void Start()
+    {
     }
 }
