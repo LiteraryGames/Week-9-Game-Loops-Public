@@ -11,7 +11,7 @@ public class MoveBackAndForth : MonoBehaviour
     List<UnityEngine.Vector3> startPositions;
     List<UnityEngine.Vector3> endPositions;
 
-    float moveAmount = 0; // Don't change this line!
+    float moveAmount = 0.1f; // Don't change this line!
     float lerpAmount = 0; // Don't change this line!
 
     // Start is called before the first frame update
