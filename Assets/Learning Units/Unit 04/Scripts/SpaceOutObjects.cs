@@ -10,12 +10,12 @@ public class SpaceOutObjects : MonoBehaviour
     void Start()
     {
         // DIRECTION: Uncomment the lines below, then fix them...
-        //GameObject objectsToSpaceOut = GetComponent<MoveObjects>().ObjectsToMove;
-        
-        //for (something; something something objectsToSpaceOut.Count; something)
-        //{
-        //    somethingsomething.transform.position = new Vector3(something * 2f,0,0);
-        //}
+        List<GameObject> objectsToSpaceOut = GetComponent<MoveObjects>().ObjectsToMove;
+
+        for (int i = 0; i < objectsToSpaceOut.Count; i++)
+        {
+            objectsToSpaceOut[i].transform.position = new Vector3(i * 2f, 0, 0);
+        }
 
         GetComponent<MoveObjects>().enabled = false; // Keep this line. We've got these objects from this 
         // Component, and we don't need it anymore
